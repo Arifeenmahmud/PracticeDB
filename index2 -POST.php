@@ -1,6 +1,6 @@
 <?php
-if(isset($_GET["name"])){
-$var=$_GET["name"];
+if(isset($POST["name"])){
+$var=$POST["name"];
 }
 else{
 $var="Error";
@@ -11,7 +11,7 @@ $var2="<html>
 <head></head>
 <body>
 <h1>Show input Content</h1>
-<form action='http://localhost/PracticeDB/index2.php' method = 'GET'>
+<form action='http://localhost/PracticeDB/index2.php' method = 'POST'>
 <input type='text' name='name'></input> <br>
 <input type='submit' value='show'></input>
 </form>
