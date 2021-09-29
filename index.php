@@ -17,4 +17,8 @@ elseif ($check>=4){
 else {
     echo " <br>Third Result";
 }
+while($check<7) {
+    echo "<br>".$check; 
+    $check++;
+    }
 ?>
