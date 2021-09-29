@@ -1,5 +1,10 @@
 <?php
+if(isset($_GET["name"])){
+$var=$_GET["name"];
+}
+else{
 $var=4;
+}
 
 $var3=6;
 $var2="<html>
